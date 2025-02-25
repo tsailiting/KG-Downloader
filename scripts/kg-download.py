@@ -4,7 +4,6 @@ import json
 import requests
 
 
-
 class Downloader:
     DOWNLOAD_PATH = "downloads"
     TEXT_BEFORE_JSON = "window.__DATA__ = "
@@ -29,21 +28,23 @@ class Downloader:
         content = content[:end_idx]
 
         self.data = json.loads(content)
-        
+
         playurl = self.data.get("detail").get("playurl")
         song_name = self.data.get("detail").get("song_name")
-        print("Found song \"{0}\" with playurl: {1}".format(song_name, playurl))
-        
+        print("Found song \"{0}\" with playurl: {1}".format(
+            song_name, playurl))
+
     def download(self):
         playurl = self.data.get("detail").get("playurl")
         song_name = self.data.get("detail").get("song_name")
-        
+
         print("Downloading...")
         response = requests.get(playurl)
         with open(os.path.join(self.download_path, song_name+".m4a"), "wb") as f:
             f.write(response.content)
         print("Finished.")
-        
+
+
 if __name__ == "__main__":
     import argparse
 
@@ -56,7 +57,7 @@ if __name__ == "__main__":
         parser.error("Please provide a URL using --url")
 
     uri = args.url
-    
+
     dl = Downloader()
     dl.parse(uri)
     dl.download()

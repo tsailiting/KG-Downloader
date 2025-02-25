@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "KG-Downloader"
+version = "0.1.0"
+description = ""
+authors = ["Lillian Tsai"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytz = "^2024.2"
+python-dotenv = "^1.0.1"
+requests = "^2.32.3"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
