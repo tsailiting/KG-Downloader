@@ -1,12 +1,14 @@
 {
     "song_name": "First Love",
-    "play_url": "http://tx.stream.kg.qq.com/gzc-kgsvp/1021_s_0b533cs54qyfruab6ivixnt3vwgd3yjqldsa.f0.m4a?vkey=53F418342AE64E26F40646301625392B8AF3FFB63F386307BBFDBB8CC7D7B15607F9F050C8BFFD74DF13F6373A9BA45F756DD1B1B31F9D49338754F80D86DD79E8E44B1985B0D675593063D56BBBA577D00B533D26A0F53E&dis_k=d287ae2a2a31013d7dcfa8c3b8cfcc8b&dis_t=1740329767&fromtag=1021&ugcid=1134579915_1739440482_288&nr=1",
+    "play_url": "http://tx.stream.kg.qq.com/gzc-kgsvp/1021_s_0b533cs54qyfruab6ivixnt3vwgd3yjqldsa.f0.m4a?vkey=25CAB009271ABF5864ED5A7AEABE73DB7516CB4E8ABA88A00EF92D03867AB561D50E7212D6A655AEBCB8845E855A1619BC7C3A6B949DF45FF872B12D90E100C44B66A11CBCEBD0A827CE253728007D6B9D4B6C8E367942A5&dis_k=0d6c550b79a55a9c385c7081b364db47&dis_t=1740383939&fromtag=1021&ugcid=1134579915_1739440482_288&nr=1",
     "singer": "[em]e401704[/em]大肥羊婷婷",
-    "song_id": "Unknown",
     "cover": "https://pic.kg.qq.com/sz_ttkg/0/d1dbc7d4de4da7f8047e47ef80f9f8fc59813eac/640?bj=aHR0cHM6Ly95Lmd0aW1nLmNuL211c2ljL3Bob3RvX25ldy9UMDAyUjUwMHg1MDBNMDAwMDAyU3dSYm8yR3JsTHAuanBnP21heF9hZ2U9MjU5MjAwMCs4MUZGRjFDNTM3REM3MTlFRDEzNjA4QUE1QzJDRTdDOA%3D%3D",
-    "comment_count": 0,
-    "like_count": 0,
-    "share_count": 0,
-    "play_count": 0,
-    "duration": 0
+    "comment_count": 20,
+    "score_rank": 5,
+    "ugc_mask": 4,
+    "ugc_type": 0,
+    "play_count": 224,
+    "like_count": 12,
+    "flower_num": 13964,
+    "gift_num": 3
 }

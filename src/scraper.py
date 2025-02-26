@@ -52,13 +52,15 @@ class KSongScraper:
             "song_name": detail.get("song_name", "Unknown"),
             "play_url": detail.get("playurl", "N/A"),
             "singer": detail.get("nick", "Unknown"),
-            "song_id": detail.get("song_id", "Unknown"),
             "cover": detail.get("cover", "N/A"),
-            "comment_count": detail.get("comment_cnt", 0),
-            "like_count": detail.get("like_cnt", 0),
-            "share_count": detail.get("share_cnt", 0),
-            "play_count": detail.get("play_cnt", 0),
-            "duration": detail.get("duration", 0),
+            "comment_count": detail.get("comment_num", 0),
+            "score_rank": detail.get("scoreRank", 0),
+            "ugc_mask": detail.get("ugc_mask", 0),
+            "ugc_type": detail.get("ugctype", 0),
+            "play_count": detail.get("play_num", 0),
+            "like_count": detail.get("uLikeCount", 0),
+            "flower_num": detail.get("flower_num", 0),
+            "gift_num": detail.get("gift_num", 0),
         }
 
         # 存成 JSON 檔案
